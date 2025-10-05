@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 CORS(app, origins=[
     "http://localhost:5173",
-    "https://cozy-rugelach-587c41.netlify.app/"
+    "https://cozy-rugelach-587c41.netlify.app"
 ])
 
 # --- Configuration ---
