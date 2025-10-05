@@ -7,7 +7,9 @@ from flask_cors import CORS # Import CORS for cross-origin requests
 
 app = Flask(__name__)
 
-CORS(app)
+CORS(app, origins=[
+    "http://localhost:5173"
+])
 
 # --- Configuration ---
 MODEL_PATH = './saved_pipelines/rf_pipeline_full.joblib'
