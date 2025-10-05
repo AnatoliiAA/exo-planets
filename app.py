@@ -8,7 +8,8 @@ from flask_cors import CORS # Import CORS for cross-origin requests
 app = Flask(__name__)
 
 CORS(app, origins=[
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://cozy-rugelach-587c41.netlify.app/"
 ])
 
 # --- Configuration ---
